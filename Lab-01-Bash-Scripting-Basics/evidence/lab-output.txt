@@ -1,0 +1,21 @@
+===== Bash Version =====
+GNU bash, version 5.2.21(1)-release (x86_64-pc-linux-gnu)
+
+===== Script Contents =====
+#!/bin/bash
+echo "Hello World!"
+
+===== Script Permissions =====
+-rwxrwxr-x 1 ubuntu ubuntu 32 Nov 20 10:24 hello.sh
+
+===== Execute Script =====
+Hello World!
+
+===== Execute Through Bash =====
+Hello World!
+
+===== Shebang Verification =====
+#!/bin/bash
+
+===== Executable Verification =====
+Executable: PASS
