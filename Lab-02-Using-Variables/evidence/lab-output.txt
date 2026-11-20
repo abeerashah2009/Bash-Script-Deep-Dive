@@ -1,0 +1,31 @@
+===== Bash Version =====
+GNU bash, version 5.2.21(1)-release (x86_64-pc-linux-gnu)
+
+===== Script Contents =====
+#!/usr/bin/env bash
+NAME="Alice"
+echo "Hello $NAME!"
+NAME="Bob"
+echo "Hello $NAME!"
+
+===== Script Permissions =====
+-rwxrwxr-x 1 ubuntu ubuntu 84 Nov 20 10:41 using_variables.sh
+
+===== Execute Script =====
+Hello Alice!
+Hello Bob!
+
+===== Test Double Quotes =====
+Hello Alice!
+
+===== Test Single Quotes =====
+Hello $NAME!
+
+===== Verify Shebang =====
+#!/usr/bin/env bash
+
+===== Verify Executable =====
+Executable: PASS
+
+===== Verify Expected Output =====
+Output: PASS
