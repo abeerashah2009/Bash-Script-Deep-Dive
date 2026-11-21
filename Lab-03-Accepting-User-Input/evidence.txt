@@ -1,0 +1,40 @@
+BASH LAB 03: ACCEPTING USER INPUT
+
+1. Script Name
+greet_user.sh
+
+2. Script Content
+#!/bin/bash
+
+echo "What is your name?"
+read -r user_name
+echo "Nice to meet you, $user_name!"
+
+3. File Permissions
+Executable permission successfully applied using chmod +x.
+
+4. Interactive Input Test
+Command:
+./greet_user.sh
+
+Input:
+abeera
+
+Output:
+What is your name?
+Nice to meet you, abeera!
+
+5. Piped Input Test
+Command:
+echo "Abeera" | ./greet_user.sh
+
+Output:
+What is your name?
+Nice to meet you, Abeera!
+
+6. Syntax Validation
+Command:
+bash -n greet_user.sh
+
+Result:
+PASS
