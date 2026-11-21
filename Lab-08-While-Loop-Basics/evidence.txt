@@ -1,0 +1,57 @@
+BASH LAB 08: WHILE LOOP BASICS
+
+1. Environment:
+Operating System: Ubuntu 24.04
+Bash Version: 5.2.21
+Python Version: 3.12.3
+
+2. Bash Script:
+File: loop.sh
+Counter initialized to 1.
+Loop condition: counter less than or equal to 5.
+Counter increment: counter = counter + 1.
+
+3. Bash Execution:
+Command: bash loop.sh
+
+Output:
+Counter: 1
+Counter: 2
+Counter: 3
+Counter: 4
+Counter: 5
+
+4. Bash Loop Termination:
+Command: bash loop.sh | tail -n1
+Output: Counter: 5
+
+5. Bash Expected Output Comparison:
+Command: diff with expected output
+Result: MATCH
+
+6. Bash Syntax Validation:
+Command: bash -n loop.sh
+Result: Bash syntax PASS
+
+7. Python Script:
+File: loop.py
+
+8. Python Execution:
+Command: python3 loop.py
+
+Output:
+Counter: 1
+Counter: 2
+Counter: 3
+Counter: 4
+Counter: 5
+
+9. Python Output Count:
+Output: 5
+
+10. Python Syntax Validation:
+Command: python3 -m py_compile loop.py
+Result: Python syntax PASS
+
+11. Bash and Python Output Comparison:
+Result: BASH AND PYTHON MATCH
