@@ -1,0 +1,51 @@
+BASH LAB 06: ELSE AND ELIF USAGE
+
+1. Script
+File: numbercheck.sh
+Purpose: Check whether a number is above, below, or exactly 10.
+
+2. Executable Permission
+Command:
+chmod +x numbercheck.sh
+Result:
+Executable permission successfully set.
+
+3. Test: Number Above 10
+Command:
+./numbercheck.sh 15
+Output:
+Above 10
+
+4. Test: Number Exactly 10
+Command:
+./numbercheck.sh 10
+Output:
+Exactly 10
+
+5. Test: Number Below 10
+Command:
+./numbercheck.sh 5
+Output:
+Below 10
+
+6. Test: No Argument
+Command:
+./numbercheck.sh
+Output:
+No number provided. Usage: ./numbercheck.sh <number>
+
+7. Test: Invalid Input
+Command:
+./numbercheck.sh abc
+Output:
+Invalid input: 'abc' is not an integer.
+
+8. Conditional Branch Verification
+Result:
+All three conditional branches verified successfully.
+
+9. Syntax Validation
+Command:
+bash -n numbercheck.sh
+Result:
+Bash syntax validation passed.
