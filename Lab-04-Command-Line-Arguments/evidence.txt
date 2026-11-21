@@ -1,0 +1,66 @@
+BASH LAB 04: COMMAND-LINE ARGUMENTS
+
+1. Script
+greet.sh
+
+2. Basic Argument Tests
+./greet.sh Bob
+Output: Hello, Bob!
+
+./greet.sh Alice
+Output: Hello, Alice!
+
+3. Multiple Arguments
+./greet.sh Bob Alice Eve
+
+Output:
+Hello, Bob!
+Hello, Alice!
+Hello, Eve!
+
+4. Argument with Spaces
+./greet.sh "Mary Ann" Bob
+
+Output:
+Hello, Mary Ann!
+Hello, Bob!
+
+5. No Arguments Error Handling
+./greet.sh
+
+Output:
+Error: No arguments supplied
+Usage: ./greet.sh <name1> <name2> ...
+
+Exit status: 1
+
+6. Successful Execution
+./greet.sh Alice
+
+Output:
+Hello, Alice!
+
+Exit status: 0
+
+7. Multiple Argument Validation
+./greet.sh Alice Bob
+
+Output:
+Hello, Alice!
+Hello, Bob!
+
+Exit status: 0
+
+8. Line Count Test
+./greet.sh Bob Alice | wc -l
+
+Output:
+2
+
+9. Syntax Validation
+bash -n greet.sh
+
+Result: PASS
+
+10. File Permissions
+Executable permission verified using ls -l.
