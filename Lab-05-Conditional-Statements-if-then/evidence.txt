@@ -1,0 +1,64 @@
+BASH LAB 05: CONDITIONAL STATEMENTS (IF-THEN)
+
+1. Script 1: check_file.sh
+Purpose: Check whether example.txt exists as a regular file.
+
+2. Missing File Test
+Command:
+./check_file.sh
+Output:
+File not found.
+
+3. Existing File Test
+Commands:
+touch example.txt
+./check_file.sh
+Output:
+File exists.
+
+4. Removed File Test
+Commands:
+rm example.txt
+./check_file.sh
+Output:
+File not found.
+
+5. Script 2: check_path.sh
+Purpose: Check whether example.txt is a file, directory, or missing.
+
+6. Missing Path Test
+Command:
+./check_path.sh
+Output:
+example.txt not found.
+
+7. Regular File Test
+Commands:
+touch example.txt
+./check_path.sh
+Output:
+example.txt is a file.
+
+8. Directory Test
+Commands:
+rm example.txt
+mkdir example.txt
+./check_path.sh
+Output:
+example.txt is a directory.
+
+9. Cleanup
+Command:
+rmdir example.txt
+Result:
+Test directory removed successfully.
+
+10. Syntax Validation
+Commands:
+bash -n check_file.sh
+bash -n check_path.sh
+Result:
+Both scripts passed Bash syntax validation.
+
+11. Permissions
+Both scripts have executable permissions.
