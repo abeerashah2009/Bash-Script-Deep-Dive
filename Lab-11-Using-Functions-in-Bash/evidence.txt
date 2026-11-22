@@ -1,0 +1,38 @@
+LAB 11 - USING FUNCTIONS IN BASH
+================================
+
+Environment:
+OS: Ubuntu 24.04
+Bash: 5.2.21
+
+Script:
+greet.sh
+
+Task 1:
+Function definition: print_greeting
+
+Task 2:
+Function call with Alice:
+Hello, Alice!
+
+Task 3:
+Dynamic argument:
+Hello, Bob!
+
+Default argument:
+Hello, World!
+
+Task 4:
+Morning greeting:
+Good morning, Alice!
+
+Default greeting:
+Hello, Bob!
+
+Additional Verification:
+Name with spaces: PASS
+Morning greeting: PASS
+Default greeting: PASS
+No-argument fallback: PASS
+Bash syntax: PASS
+Executable permission: PASS
