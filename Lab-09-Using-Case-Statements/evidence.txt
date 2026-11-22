@@ -1,0 +1,32 @@
+LAB 09 - USING CASE STATEMENTS
+==============================
+
+Environment:
+OS: Ubuntu 24.04
+Bash: 5.2.21
+
+Script:
+command_script.sh
+
+Valid Command Tests:
+start: Starting the service...
+stop: Stopping the service...
+status: Checking the service status...
+
+Invalid Command Test:
+Output: Invalid command
+Exit code: 2
+
+Missing Argument Test:
+Output: Usage: ./command_script.sh {start|stop|status}
+Exit code: 1
+
+Valid Command Exit Codes:
+start: 0
+stop: 0
+status: 0
+
+Verification:
+Bash syntax: PASS
+Executable permission: PASS
+All valid command tests: PASS
