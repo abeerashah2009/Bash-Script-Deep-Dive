@@ -1,0 +1,26 @@
+LAB 10 - FILE MANIPULATION SCRIPT
+=================================
+
+Environment:
+OS: Ubuntu 24.04
+Bash: 5.2.21
+
+Script:
+file_copy_script.sh
+
+Successful Copy Test:
+Source: testfile.txt
+Destination: new.txt
+Result: File copied successfully
+Comparison: Files are identical
+
+Error Handling Tests:
+Missing both arguments: Exit code 1
+Missing destination: Exit code 1
+Missing source: Exit code 1
+Invalid destination directory: Exit code 1
+
+Additional Verification:
+Bash syntax: PASS
+Strict mode test: PASS
+File copy comparison: PASS
