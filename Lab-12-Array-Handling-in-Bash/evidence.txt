@@ -1,0 +1,39 @@
+LAB 12 - ARRAY HANDLING IN BASH
+===============================
+
+Environment:
+OS: Ubuntu 24.04.5 LTS
+Bash: 5.2.21
+
+Script:
+arrays.sh
+
+Task 1 - Array Creation:
+Initial fruits: apple, banana, cherry
+Initial array length: 3
+Array display: PASS
+
+Task 2 - Array Loop:
+Fruit: apple
+Fruit: banana
+Fruit: cherry
+Loop output: PASS
+
+Task 3 - Append Element:
+Added: mango
+Updated array length: 4
+Updated array display: PASS
+
+Task 3.3 - Array Manipulation:
+First element: apple
+Last element: mango
+Slice from index 1, length 2: banana, cherry
+Deleted index 1: PASS
+Remaining indexes: 0 2 3
+Array length after deletion: 3
+Unset entire array: 0 elements
+
+Additional Verification:
+Bash syntax: PASS
+Complete script execution: PASS
+Executable permission: PASS
