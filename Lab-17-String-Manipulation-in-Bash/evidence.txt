@@ -1,0 +1,47 @@
+LAB 17 - STRING MANIPULATION IN BASH
+====================================
+
+Environment:
+Operating System: Ubuntu Linux
+Bash Version: 5.2
+Script: s.sh
+
+Task 1 - String Input:
+Command-line input: abcdefgh
+Interactive input: Tested
+Status: PASS
+
+Task 2 - String Length:
+Input: abcdefgh
+Expected length: 8
+Actual length: 8
+Status: PASS
+
+Task 3 - Substring Extraction:
+Expression: ${user_input:2:4}
+Input: abcdefgh
+Output: cdef
+Status: PASS
+
+Task 4 - Substring Replacement:
+Input: abcdefgh
+Output: xyzdefgh
+Status: PASS
+
+Additional Replacement Test:
+Input: tabcdbc
+Output: txyzdbc
+Status: PASS
+
+All Matches vs First Match:
+Replace all: xyzxyz
+Replace first: xyzabc
+Status: PASS
+
+Final Verification:
+Bash syntax: PASS
+Executable permission: PASS
+Final script test: PASS
+
+Conclusion:
+Successfully completed all Bash string manipulation tasks.
