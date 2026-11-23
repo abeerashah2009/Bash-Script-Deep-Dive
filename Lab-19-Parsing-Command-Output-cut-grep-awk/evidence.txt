@@ -1,0 +1,47 @@
+Lab 19: Parsing Command Output (cut/grep/awk)
+=============================================
+
+Environment:
+Operating System: Ubuntu 24.04.5 LTS
+Bash Version: 5.2.21
+
+Commands Practiced:
+-------------------
+1. ps aux
+2. grep
+3. pgrep
+4. awk
+5. cut
+6. head
+7. sleep
+8. kill
+
+Practical Verification:
+-----------------------
+Task 1 - Listing Processes Using ps aux: PASS
+Task 2 - Filtering Output Using grep: PASS
+Task 3 - Extracting Columns Using awk: PASS
+Extracting Columns Using cut: PASS
+Piping Commands: PASS
+Background Process Verification: PASS
+Process Cleanup: PASS
+Final Verification: PASS
+
+Test Results:
+-------------
+Background Process PID: 4725
+Process Verification: PASS
+grep Filtering: PASS
+awk PID and COMMAND Extraction: PASS
+cut PID Extraction: PASS
+cut Command Extraction: PASS
+Username Extraction: PASS
+
+Cleanup:
+--------
+Lab background process stopped successfully.
+Unrelated system processes were not terminated.
+
+Conclusion:
+-----------
+All practical tasks completed and verified successfully.
