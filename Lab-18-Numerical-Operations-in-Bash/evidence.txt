@@ -1,0 +1,44 @@
+Lab 18: Numerical Operations in Bash
+====================================
+
+Environment:
+Operating System: Ubuntu 24.04 LTS
+Bash Version: 5.2.21
+bc Version: 1.07.1
+
+Script:
+num_operations.sh
+
+Verification Results:
+---------------------
+1. Integer calculations: PASS
+2. Decimal calculations: PASS
+3. Piped input: PASS
+4. Interactive input: PASS
+5. Division by zero protection: PASS
+6. Invalid input validation: PASS
+7. Bash syntax check: PASS
+8. Executable permission: PASS
+
+Test Results:
+-------------
+Input: 10 4
+Sum: 14
+Difference: 6
+Product: 40
+Quotient: 2.50
+
+Input: 2.5 1.5
+Sum: 4.0
+Difference: 1.0
+Product: 3.75
+Quotient: 1.66
+
+Input: 10 0
+Division by zero protection: PASS
+
+Input: abc 4
+Numeric validation: PASS
+
+Conclusion:
+All practical tests completed successfully.
