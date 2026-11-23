@@ -1,0 +1,52 @@
+LAB 13 - COMMAND SUBSTITUTION
+=============================
+
+Environment:
+OS: Ubuntu 24.04
+Bash: 5.2.21
+
+Script:
+cmd_sub.sh
+
+Task 1 - Basic Command Substitution:
+Command: hostname
+Output: Hello from ip-172-31-10-210
+Status: PASS
+
+Task 2 - Current Date:
+Variable: CURRENT_DATE
+Command: date
+Date captured successfully: PASS
+
+Formatted Date:
+Command: date +%F
+Output format: YYYY-MM-DD
+Status: PASS
+
+Nested Command Substitution:
+Command: date +%F with echo and wc -c
+Date string length: 10
+Status: PASS
+
+Task 3 - Other Commands:
+whoami:
+Current user: ubuntu
+Status: PASS
+
+pwd:
+Current directory: /home/ubuntu/cmd_sub
+Status: PASS
+
+uname -r:
+Kernel version: 7.0.0-1014-aws
+Status: PASS
+
+ls | wc -l:
+Files in practical directory: 1
+Status: PASS
+
+Additional Verification:
+Kernel Version line count: 1
+Bash syntax: PASS
+Complete script execution: PASS
+Executable permission: PASS
