@@ -1,0 +1,44 @@
+LAB 16 - SCHEDULING SCRIPTS WITH CRON
+=====================================
+
+Environment:
+Operating System: Ubuntu 24.04.5 LTS
+Bash Version: 5.2.21
+User: ubuntu
+Scheduler: Cron
+
+Task 1 - Install and Start Cron:
+Cron package: Installed
+Cron service: Active
+Cron enabled at startup: Yes
+Status: PASS
+
+Task 2 - Create and Test Script:
+Script: ~/cron_lab/cron_test.sh
+Output file: ~/cron_output.txt
+Script executable: Yes
+Manual execution: Successful
+Output: Cron test
+Status: PASS
+
+Task 3 - Schedule Cron Job:
+Schedule: * * * * *
+Script path: /home/ubuntu/cron_lab/cron_test.sh
+Crontab verification: Successful
+Status: PASS
+
+Task 4 - Verify Automatic Execution:
+Output lines before waiting: 2
+Output lines after waiting: 3
+New scheduled output: 1
+Total Cron test lines: 3
+Status: PASS
+
+Task 5 - Cleanup:
+Lab 16 Cron job removed: Yes
+Cron job verification count: 0
+Cron service remains active: Yes
+Status: PASS
+
+Conclusion:
+Successfully created, scheduled, and verified an automated Bash script using Cron.
