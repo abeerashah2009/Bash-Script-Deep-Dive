@@ -1,0 +1,48 @@
+LAB 14 - LOGGING AND REDIRECTING OUTPUT
+=======================================
+
+Environment:
+Operating System: Ubuntu 24.04
+Shell: Bash 5.2
+Script: multiline_output.sh
+
+Task 1 - Multiline Script:
+Created multiline_output.sh successfully.
+Verified all three echo messages.
+Status: PASS
+
+Task 2 - Output Redirection:
+
+Overwrite using >:
+bash multiline_output.sh > first.log
+Status: PASS
+
+Append using >>:
+bash multiline_output.sh >> first.log
+Verified line count: 6
+Status: PASS
+
+Redirect stderr using 2>:
+ls /nonexistent > out.log 2> err.log
+Verified error message in err.log.
+Status: PASS
+
+Combine stdout and stderr using 2>&1:
+ls /nonexistent > both.log 2>&1
+Verified error message in both.log.
+Status: PASS
+
+Task 3 - tee Command:
+Updated script to use tee output.log.
+Verified output on terminal and in log file.
+Status: PASS
+
+Log Verification:
+Initial output.log line count: 3
+After tee -a append: 6
+Status: PASS
+
+Additional Verification:
+Executable permission: PASS
+Bash syntax check: PASS
+Complete script execution: PASS
