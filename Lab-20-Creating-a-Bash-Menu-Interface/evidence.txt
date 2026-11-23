@@ -1,0 +1,52 @@
+Lab 20: Creating a Bash Menu Interface
+=======================================
+
+Environment:
+-----------
+Operating System: Ubuntu 24.04
+Bash Version: 5.2.21
+Script Name: bash_menu.sh
+
+Commands Practiced:
+------------------
+1. echo
+2. read
+3. case
+4. while
+5. date
+6. ls
+7. chmod
+8. bash -n
+9. printf
+
+Practical Verification:
+----------------------
+Task 1 - Create Bash Menu Script: PASS
+Task 2 - Create Functions: PASS
+Task 3 - Capture User Input: PASS
+Task 4 - Implement Case Statement: PASS
+Task 5 - Show Current Date and Time: PASS
+Task 6 - List Current Directory Files: PASS
+Task 7 - Exit Menu: PASS
+Task 8 - Handle Invalid Input: PASS
+Task 9 - Bash Syntax Check: PASS
+Task 10 - Executable Permission: PASS
+
+Test Results:
+------------
+Option 1 - Show Date: PASS
+Option 2 - List Files: PASS
+Option 9 - Invalid Option: PASS
+Option 3 - Exit: PASS
+
+Script Verification:
+-------------------
+Syntax Check: PASS
+Interactive Menu Test: PASS
+Automated Input Test: PASS
+Executable Script: PASS
+
+Conclusion:
+----------
+The interactive Bash menu was created and tested successfully.
+All menu options and invalid-input handling worked as expected.
